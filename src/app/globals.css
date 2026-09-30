@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-instrument);
+  --color-ink: #0b1220;
+  --color-navy: #0b2265;
+  --color-schwarz: #111111;
+  --color-rot: #dd0000;
+  --color-gold: #ffce00;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+@keyframes blink {
+  50% { opacity: 0.25; }
+}
+.animate-blink { animation: blink 2.4s ease-in-out infinite; }
+
+@keyframes stamp {
+  0% { transform: scale(2.4) rotate(-14deg); opacity: 0; }
+  60% { transform: scale(0.94) rotate(-9deg); opacity: 1; }
+  100% { transform: scale(1) rotate(-9deg); opacity: 1; }
+}
+.animate-stamp { animation: stamp 0.45s cubic-bezier(.2,.8,.3,1.2) both; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up { animation: fadeUp 0.35s ease-out both; }
+
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-ticker { animation: ticker 40s linear infinite; }
+
+/* The LED display in the waiting room: slow, tired, like the office behind it. */
+@keyframes led {
+  0%, 70%, 100% { opacity: 1; }
+  85% { opacity: 0.55; }
+}
+.animate-led { animation: led 4s ease-in-out infinite; }
+
+@keyframes paper {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+.animate-paper-slow { animation: paper 9s linear infinite; }
+
+@keyframes steam {
+  0% { opacity: 0; transform: translateY(0) scale(0.8); }
+  40% { opacity: 0.7; }
+  100% { opacity: 0; transform: translateY(-14px) scale(1.2); }
+}
+.animate-steam { animation: steam 2.2s ease-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

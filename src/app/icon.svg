@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs><clipPath id="r"><rect x="4" y="12" width="56" height="40" rx="6"/></clipPath></defs>
+  <g clip-path="url(#r)">
+    <rect x="4" y="12" width="56" height="14" fill="#111"/>
+    <rect x="4" y="26" width="56" height="13" fill="#dd0000"/>
+    <rect x="4" y="39" width="56" height="13" fill="#ffce00"/>
+  </g>
+  <g transform="rotate(-14 44 44)">
+    <circle cx="46" cy="44" r="14" fill="#fff" stroke="#0b2265" stroke-width="3"/>
+    <text x="46" y="50" text-anchor="middle" font-family="Georgia,serif" font-size="17" font-weight="700" fill="#0b2265">§</text>
+  </g>
+</svg>
