@@ -1,0 +1,126 @@
+// [question as a user would type it, expected topic id]
+export const questions: [string, string][] = [
+  // Zeitumstellung
+  ["When do the clocks change?", "nature-zeitumstellung"],
+  ["Wann ist die Zeitumstellung?", "nature-zeitumstellung"],
+  ["does germany have daylight saving time", "nature-zeitumstellung"],
+  ["Is the EU abolishing the clock change?", "nature-zeitumstellung"],
+  ["sommerzeit oder winterzeit?", "nature-zeitumstellung"],
+  // Heat
+  ["Why is there no air conditioning in Germany?", "nature-heat"],
+  ["it's so hot, what do I do", "nature-heat"],
+  ["Is there a heatwave?", "nature-heat"],
+  ["Do schoolkids get Hitzefrei?", "nature-heat"],
+  ["Klimaanlage in der Mietwohnung erlaubt?", "nature-heat"],
+  // Pollen
+  ["I have hay fever, help", "nature-pollen"],
+  ["Wie ist der Pollenflug heute?", "nature-pollen"],
+  ["why do I sneeze so much in april", "nature-pollen"],
+  ["birch pollen allergy", "nature-pollen"],
+  // Forest
+  ["Can I make a campfire in the forest?", "nature-forest"],
+  ["Is wild camping allowed in Germany?", "place-camping"],
+  ["Darf ich im Wald ein Lagerfeuer machen?", "nature-forest"],
+  ["What are the rules in the forest?", "nature-forest"],
+  ["can I leave the path in the woods", "nature-forest"],
+  // Mushrooms
+  ["Can I pick mushrooms in the forest?", "nature-mushrooms"],
+  ["Wo kann ich Pilze sammeln?", "nature-mushrooms"],
+  ["is this mushroom edible", "nature-mushrooms"],
+  ["where do I get my mushrooms checked", "nature-mushrooms"],
+  ["Pfifferlinge sammeln erlaubt?", "nature-mushrooms"],
+  // Fishing
+  ["Do I need a fishing licence?", "nature-fishing"],
+  ["Wie bekomme ich einen Angelschein?", "nature-fishing"],
+  ["can i go fishing in the rhine", "nature-fishing"],
+  ["Fischereischein Prüfung", "nature-fishing"],
+  ["Is catch and release fishing legal?", "nature-fishing"],
+  // Hunting
+  ["How do I get a hunting licence?", "nature-hunting"],
+  ["What is the Grünes Abitur?", "nature-hunting"],
+  ["there is a wild boar in my garden", "nature-hunting"],
+  ["Jagdschein machen Kosten", "nature-hunting"],
+  // Cats
+  ["Can my cat go outside?", "nature-cat"],
+  ["Is there a cat tax?", "nature-cat"],
+  ["Do I have to register my cat?", "nature-cat"],
+  ["can I install a cat flap in my rental", "nature-cat"],
+  ["Muss meine Katze kastriert werden?", "nature-cat"],
+  ["my cat keeps visiting the neighbours", "nature-cat"],
+  // Birds
+  ["Can I feed bread to the ducks?", "nature-birds"],
+  ["Is it illegal to feed pigeons?", "nature-birds"],
+  ["Darf ich Tauben füttern?", "nature-birds"],
+  ["How do I feed the birds?", "nature-birds"],
+  ["where should I put a bird feeder", "nature-birds"],
+  ["Enten füttern verboten?", "nature-birds"],
+  // Hedgehogs, robot mowers, leaf blowers
+  ["What should I do with a hedgehog in my garden?", "nature-igel"],
+  ["I found a hedgehog, what now?", "nature-igel"],
+  ["Can my robot mower run at night?", "nature-igel"],
+  ["Mähroboter nachts erlaubt?", "nature-igel"],
+  ["when can I use a leaf blower", "nature-igel"],
+  ["Igel im Garten überwintern", "nature-igel"],
+  // Leaves
+  ["Do I have to rake the leaves?", "nature-laub"],
+  ["who removes fallen leaves on the sidewalk", "nature-laub"],
+  ["Muss ich das Laub vor dem Haus fegen?", "nature-laub"],
+  ["where do autumn leaves go", "nature-laub"],
+  // Bees & wasps
+  ["There's a wasp nest on my balcony", "nature-bees"],
+  ["Can I remove a hornet nest?", "nature-bees"],
+  ["How do I become a beekeeper?", "nature-bees"],
+  ["Wespennest entfernen lassen", "nature-bees"],
+  ["Do bees need to be registered?", "nature-bees"],
+  // Wolves
+  ["Are there wolves in Germany?", "nature-wolf"],
+  ["What do I do if I meet a wolf?", "nature-wolf"],
+  ["Gibt es Wölfe in Brandenburg?", "nature-wolf"],
+  ["are there dangerous animals in german forests", "nature-wolf"],
+  // Heiligabend
+  ["When do Germans open Christmas presents?", "nature-heiligabend"],
+  ["What happens on Heiligabend?", "nature-heiligabend"],
+  ["who brings the presents, the Christkind or Santa?", "nature-heiligabend"],
+  ["what do Germans eat on Christmas Eve", "nature-heiligabend"],
+  ["Are shops open on 24 December?", "nature-heiligabend"],
+  // Christmas tree
+  ["What do I do with my Christmas tree after Christmas?", "nature-christmas-tree"],
+  ["Wann wird der Weihnachtsbaum abgeholt?", "nature-christmas-tree"],
+  ["Can I have real candles on my christmas tree?", "nature-christmas-tree"],
+  ["where do I buy a tannenbaum", "nature-christmas-tree"],
+  // Nikolaus
+  ["What is Nikolaustag?", "nature-nikolaus"],
+  ["Why do kids put boots outside on December 6?", "nature-nikolaus"],
+  ["who is Knecht Ruprecht", "nature-nikolaus"],
+  ["Is Krampus real?", "nature-nikolaus"],
+  // Vatertag / Himmelfahrt / Pfingsten
+  ["What is Vatertag in Germany?", "nature-vatertag"],
+  ["Why do men pull a Bollerwagen?", "nature-vatertag"],
+  ["What is Himmelfahrt?", "nature-vatertag"],
+  ["Is Fronleichnam a holiday everywhere?", "nature-vatertag"],
+  ["what do germans do on pentecost", "nature-vatertag"],
+  // School holidays
+  ["When are the summer holidays?", "nature-ferien"],
+  ["Wann sind Sommerferien in Bayern?", "nature-ferien"],
+  ["why are school holidays different in every state", "nature-ferien"],
+  ["Can I take my kid out of school early for vacation?", "nature-ferien"],
+  ["Herbstferien 2027", "nature-ferien"],
+  // Climate
+  ["How can I save energy at home?", "nature-klima"],
+  ["What is Germany doing about climate change?", "nature-klima"],
+  ["Tipps zum Energiesparen", "nature-klima"],
+  ["how do I reduce my carbon footprint", "nature-klima"],
+  // Snow clearing
+  ["Do I have to shovel snow?", "nature-raeumpflicht"],
+  ["Who has to clear the snow on the sidewalk?", "nature-raeumpflicht"],
+  ["Is road salt allowed?", "nature-raeumpflicht"],
+  ["Räumpflicht als Mieter", "nature-raeumpflicht"],
+  ["someone slipped on the icy pavement in front of my house", "nature-raeumpflicht"],
+  // Severe weather
+  ["There's a storm warning, what do I do?", "nature-unwetter"],
+  ["What is the NINA app?", "nature-unwetter"],
+  ["Unwetterwarnung für morgen", "nature-unwetter"],
+  ["why are the sirens going off", "nature-unwetter"],
+  ["what to do in a thunderstorm", "nature-unwetter"],
+  ["Hochwasser im Keller", "nature-unwetter"],
+];

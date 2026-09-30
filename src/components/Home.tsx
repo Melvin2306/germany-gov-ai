@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { bureaucraticAnswer } from "@/lib/bureaucracy";
+import { loadEngine, type Answer } from "@/lib/bureaucracy";
 import { scenes } from "./Scenes";
 import { Markdownish } from "./Markdownish";
 import { FlagMark } from "./FlagMark";
@@ -140,6 +140,18 @@ export default function Home() {
     cookieTimer.current = setTimeout(() => setCookie({ open: true, reason: "expired" }), COOKIE_TTL_MS);
   }, []);
 
+  // --- Answer catalogue: not part of the initial bundle. Fetch it once the page
+  // is idle so the first question is instant; focusing the input also triggers it.
+  useEffect(() => {
+    const prefetch = () => void loadEngine().catch(() => {});
+    if ("requestIdleCallback" in window) {
+      const id = window.requestIdleCallback(prefetch, { timeout: 3000 });
+      return () => window.cancelIdleCallback(id);
+    }
+    const t = setTimeout(prefetch, 1500);
+    return () => clearTimeout(t);
+  }, []);
+
   // --- Carousel and rotating placeholder.
   useEffect(() => {
     if (!playing || view !== "hero") return;
@@ -217,6 +229,14 @@ export default function Home() {
     setMenuOpen(false);
     setInfoPage(null);
 
+    // Start resolving the answer right away; the Wartebereich animation hides the load.
+    const pending: Promise<Answer> = loadEngine()
+      .then((e) => e.answer(q))
+      .catch(() => ({
+        text: "📠 **Die Akte konnte nicht geladen werden.** The fax line is busy (or your internet connection is). Please try again.",
+        related: [q],
+      }));
+
     if (viewRef.current !== "chat") await switchView("chat");
     follow.current = true;
 
@@ -235,7 +255,7 @@ export default function Home() {
     }
     await sleep(300);
 
-    const answer = bureaucraticAnswer(q);
+    const answer = await pending;
     let full = answer.text;
     if (outsideOpeningHours()) {
       full = `_Note: You are contacting us outside our Öffnungszeiten (Tue & Thu, 08:00–11:30). Your request is being processed as a Kulanz exception. This will not happen again._\n\n${full}`;
@@ -298,6 +318,7 @@ export default function Home() {
       <input
         value={input}
         onChange={(e) => setInput(e.target.value)}
+        onFocus={() => void loadEngine().catch(() => {})}
         placeholder={view === "chat" ? "Weitere Frage stellen (Formular F-2)…" : PLACEHOLDERS[placeholder]}
         className={`min-w-0 flex-1 bg-transparent text-ink placeholder:text-neutral-500 focus:outline-none ${compact ? "text-base" : "text-base sm:text-xl"}`}
         aria-label="Ask the Beamten-KI"
