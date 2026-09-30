@@ -1,0 +1,164 @@
+src/lib/topics/culture.ts
+  s_022abf0bc7355c::t_1325b28ee73ca8 205,281
+  s_022abf0bc7355c::t_e8ad568f992e5a 1
+  s_022abf0bc7355c::t_465e2c00ae073d 3-6,8-100,102-115,117-129,131-173,175-191,193-204,206-279,284,289,291-292
+  s_022abf0bc7355c::t_9df24ecbc0eb1a 192
+  s_022abf0bc7355c::t_222315c0978816 7,101,116,130,174,280,282-283,285-288,290
+  s_022abf0bc7355c::t_69e3562c24918c 2
+scripts/questions/culture.ts
+  s_022abf0bc7355c::t_e8ad568f992e5a 1-31,33,35-56,58-70,74-76
+  s_022abf0bc7355c::t_222315c0978816 32,34,57,71-73
+src/lib/topics/mobility.ts
+  s_022abf0bc7355c::t_1325b28ee73ca8 218
+  s_022abf0bc7355c::t_04beec1feab7f2 121
+  s_022abf0bc7355c::t_a7da3ec8a66317 10,28,45,107,122,139,173,217,263,276
+  s_022abf0bc7355c::t_9df24ecbc0eb1a 138,155
+  s_022abf0bc7355c::t_f7e1b0fae0a30a 1-7,9,11-27,29-44,46-106,108-120,123-137,140-154,156-172,174-188,190-216,219-262,264-275,277-289,291-321
+  s_022abf0bc7355c::t_e32ba5217208de 189
+  s_022abf0bc7355c::t_87bcad23f60af1 8,290
+src/lib/topics/smalltalk.ts
+  s_022abf0bc7355c::t_9df24ecbc0eb1a 50
+  s_022abf0bc7355c::t_5ff41849c08c6c 129-131,252
+  s_022abf0bc7355c::t_d41fd5ed120785 1-49,51-128,132-251,253-313
+src/lib/topics/nature.ts
+  s_022abf0bc7355c::t_2e420f4d1692e7 124,150,268
+  s_022abf0bc7355c::t_ef23c17835048d 2
+  s_022abf0bc7355c::t_0a5be5b5664159 1,3-123,126-149,151-178,180-267,269-328
+  s_022abf0bc7355c::t_8c7e4e032ac656 125,179
+src/lib/topics/tech.ts
+  s_022abf0bc7355c::t_ef23c17835048d 1-2
+  s_022abf0bc7355c::t_c5b65296b86b76 3-36,38-49,52-80,82-94,96-123,125-134,136-151,153-165,168-179,181-193,195-233,235-249,251-263,265-291
+  s_022abf0bc7355c::t_da302176aa7e32 37,81,135,152,180,194,234,250,264
+  s_022abf0bc7355c::t_21b764e879146f 50-51,124,166-167
+  s_022abf0bc7355c::t_4d28ef38179e9f 95
+scripts/questions/places.ts
+  s_022abf0bc7355c::t_2bdf5c56292ad2 2-3,5-49,51-78,80-104
+  s_022abf0bc7355c::t_73497729531e63 4
+  s_022abf0bc7355c::t_9f7e3587ce9a49 50,79
+  s_022abf0bc7355c::t_ef23c17835048d 1
+src/lib/topics/places.ts
+  s_022abf0bc7355c::t_ef23c17835048d 2
+  s_022abf0bc7355c::t_73497729531e63 7,20,33,56,67,132,157
+  s_022abf0bc7355c::t_9f7e3587ce9a49 105,187
+  s_022abf0bc7355c::t_2bdf5c56292ad2 244
+  s_022abf0bc7355c::t_ac5d700d1a999e 1,3-6,8-19,21-32,34-43,45-55,57-66,68-104,106-131,133-156,158-186,188-243,245-256
+  s_022abf0bc7355c::t_df18fd751465b5 44
+src/lib/topics/index.ts
+  s_022abf0bc7355c::t_ef23c17835048d 16-20
+  s_022abf0bc7355c::t_b44f439ac5f789 1-2
+  s_022abf0bc7355c::t_09d1feeadba82a 3-15,21-25
+scripts/check-answers.ts
+  s_022abf0bc7355c::t_7cd8b54ae6c133 23,29,44-53
+  s_022abf0bc7355c::t_2d2b1e5a6b5b04 22,24-28,30-33,36-41,54-59
+  s_022abf0bc7355c::t_cc21ac46810e3b 1-9,11-16,34-35,42-43,60-62
+  s_022abf0bc7355c::t_09d1feeadba82a 10,17-21
+src/lib/topics/family.ts
+  s_022abf0bc7355c::t_b55dea413896ab 1-7,9-17,19-103,105-130,132-142,144-161,163-169,171-208,210,212,218,220-260,262-272,274-288
+  s_022abf0bc7355c::t_62f441e3fd43bd 8,131,143,170,209,211,213-217,219,261,273
+  s_022abf0bc7355c::t_6c1fde0ec490c0 18,162
+  s_022abf0bc7355c::t_9df24ecbc0eb1a 104
+src/lib/topics/shared.ts
+  s_022abf0bc7355c::t_b44f439ac5f789 1-45
+scripts/questions/tech.ts
+  s_022abf0bc7355c::t_21b764e879146f 2-89,91-131
+  s_022abf0bc7355c::t_ef23c17835048d 1
+  s_022abf0bc7355c::t_da302176aa7e32 90
+scripts/questions/life.ts
+  s_022abf0bc7355c::t_ef23c17835048d 1-2
+  s_022abf0bc7355c::t_8dbaf369de9794 3-97
+src/lib/topics/core.ts
+  s_022abf0bc7355c::t_87bcad23f60af1 25,62,128,204,302
+  s_022abf0bc7355c::t_9673c042458ff2 93
+  s_022abf0bc7355c::t_3e5471dba790f7 146,540
+  s_022abf0bc7355c::t_b44f439ac5f789 1-6,8-24,26-61,63-76,78-92,94-127,129-145,147-187,189-203,205-248,250-262,264-277,279-301,303-354,356-410,412-484,486-512,514-524,526-539,541-622,624-634
+  s_022abf0bc7355c::t_9df24ecbc0eb1a 7,77,188,249,263,278,355,411,485,513,525,623
+src/lib/matcher.ts
+  s_022abf0bc7355c::t_09d1feeadba82a 1-28,31-32,35-50,53-74
+  s_022abf0bc7355c::t_47bff00efedfca 29-30,33-34
+  s_022abf0bc7355c::t_d4f5858cf2a5f0 51-52
+scripts/questions/housing.ts
+  s_022abf0bc7355c::t_945d12c10beb7e 2-72
+  s_022abf0bc7355c::t_528a930da90663 1
+scripts/questions/nature.ts
+  s_022abf0bc7355c::t_ef23c17835048d 1-2,126
+  s_022abf0bc7355c::t_2e420f4d1692e7 22
+  s_022abf0bc7355c::t_53f3f7384f4da5 3-21,23-125
+src/lib/bureaucracy.ts
+  s_022abf0bc7355c::t_09d1feeadba82a 4-5,55-76,78-91
+  s_022abf0bc7355c::t_b44f439ac5f789 6
+src/lib/topics/shopping.ts
+  s_022abf0bc7355c::t_f32c8af65b0392 1,3-55,57-69,71-99,101-116,118-148,150-176,178-272,274-287,289-302
+  s_022abf0bc7355c::t_ef23c17835048d 2
+  s_022abf0bc7355c::t_52d69f88d8aea7 56,70,100,117,149,177,273,288
+scripts/questions/work.ts
+  s_022abf0bc7355c::t_dabc8e7f84e4b1 1-4,6-52,54-72
+  s_022abf0bc7355c::t_4d5f469469835b 5,53
+scripts/questions/government.ts
+  s_022abf0bc7355c::t_0b8aac4dfbf343 2-11,15-32,34-80
+  s_022abf0bc7355c::t_e1f0b9990146ad 33
+  s_022abf0bc7355c::t_a7da3ec8a66317 12-14
+  s_022abf0bc7355c::t_52066d3558c7e6 1
+src/lib/topics/housing.ts
+  s_022abf0bc7355c::t_0e1d6c99d534fe 84,166,181,292
+  s_022abf0bc7355c::t_f71b5e2bc32f12 1-83,85-100,102-165,167-180,182-291,293-316
+  s_022abf0bc7355c::t_c7544a87cfa2a8 101
+scripts/questions/family.ts
+  s_022abf0bc7355c::t_6c1fde0ec490c0 1-54,57-65,67-72
+  s_022abf0bc7355c::t_62f441e3fd43bd 55-56,66
+scripts/questions/rephrasings.ts
+  s_022abf0bc7355c::t_af59069086279b 141-144,146-170
+  s_022abf0bc7355c::t_b0aee7c423f124 2-34,36-140,171
+  s_022abf0bc7355c::t_694fbe49a1d24c 35,145
+  s_022abf0bc7355c::t_ef23c17835048d 1
+scripts/questions/smalltalk.ts
+  s_022abf0bc7355c::t_8761a2af651597 2-83
+  s_022abf0bc7355c::t_09c960c6678d85 1
+src/lib/topics/work.ts
+  s_022abf0bc7355c::t_9df24ecbc0eb1a 56
+  s_022abf0bc7355c::t_0aeb0ebe7b807b 1-55,57-211,213-240,242-254,256-280
+  s_022abf0bc7355c::t_dabc8e7f84e4b1 241,255
+  s_022abf0bc7355c::t_d734dda4ff057c 212
+scripts/questions/core.ts
+  s_022abf0bc7355c::t_c2a716ae154b9f 1-69
+src/lib/topics/government.ts
+  s_022abf0bc7355c::t_e1f0b9990146ad 25,54,68,101,115,190,307
+  s_022abf0bc7355c::t_a7da3ec8a66317 41-52
+  s_022abf0bc7355c::t_9bba8ba9509195 102,176
+  s_022abf0bc7355c::t_815736fe69068c 1-24,26-27,29-40,53,55-67,69-100,103-114,116-175,177-189,191-306,308-318
+  s_022abf0bc7355c::t_cd2bce672a86b1 28
+scripts/questions/mobility.ts
+  s_022abf0bc7355c::t_1325b28ee73ca8 1-36,38-39,41-71
+  s_022abf0bc7355c::t_a7da3ec8a66317 37,40
+scripts/questions/shopping.ts
+  s_022abf0bc7355c::t_b7eb7e74cafacc 2-123,125-126
+  s_022abf0bc7355c::t_ef23c17835048d 1
+  s_022abf0bc7355c::t_2e807269b2d2d3 124
+src/lib/topics/life.ts
+  s_022abf0bc7355c::t_ef23c17835048d 2
+  s_022abf0bc7355c::t_d397ce0024e6c9 53,66,101,125,229,246
+  s_022abf0bc7355c::t_6c67c19204e6f1 1,3-52,54-65,67-100,102-124,126-228,230-245,247-270
+src/components/Home.tsx
+  s_022abf0bc7355c::t_d4f5858cf2a5f0 4,143-154,232-239,258,321
+README.md
+  s_022abf0bc7355c::t_1b54ed80d4ac05 11,25,30-37,40,44-46
+package-lock.json
+  s_022abf0bc7355c::t_4e990988a7c792 23,313-754,3640-3681,4253-4267,6889-6907
+package.json
+  s_022abf0bc7355c::t_71ea2fcf8cac46 9-10,25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "98603de711f4262a7ac4bf15b0f4c7bbcd6035e5",
+  "prompts": {},
+  "sessions": {
+    "s_022abf0bc7355c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28502770-5aa9-498b-bca4-17bec7bea05b",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Melvin Rinkleff <melvin.rinkleff@gmx.de>"
+    }
+  }
+}
