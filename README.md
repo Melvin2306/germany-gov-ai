@@ -2,6 +2,8 @@
 
 A satirical parody of AI-powered government portals (in the style of America.gov), German edition. Ask the **Beamten-KI** anything and receive a Wartenummer, a Bescheid with Aktenzeichen and stamp, and a Termin in 2029.
 
+**Live:** https://germany-gov-ai.vercel.app · **Source:** https://github.com/Melvin2306/germany-gov-ai
+
 > Satire. Not affiliated with any government, authority or public body. The "AI" is a folder of predefined answers — no model, no API, nothing leaves the browser.
 
 ## Features
@@ -22,7 +24,11 @@ npm run build
 npm run lint
 ```
 
-Set `NEXT_PUBLIC_SITE_URL` in production so Open Graph image URLs resolve correctly.
+Open Graph image URLs use `NEXT_PUBLIC_SITE_URL` if set, otherwise Vercel's production domain (`VERCEL_PROJECT_PRODUCTION_URL`), otherwise `http://localhost:3000`.
+
+## Contributing
+
+Issues and pull requests welcome at https://github.com/Melvin2306/germany-gov-ai. New Beamten-KI answers go in `src/lib/bureaucracy.ts`.
 
 ## Where things live
 

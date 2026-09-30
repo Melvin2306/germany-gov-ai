@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { FlagMark } from "./FlagMark";
+import { REPO_URL } from "@/lib/site";
 
 export type InfoPage = "how" | "privacy" | "about" | "soon" | "faq" | "feedback";
 
@@ -83,6 +84,9 @@ export function MenuPanel({
             <br />
             Bundesrepublik Deutschland
           </p>
+          <a href={REPO_URL} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-sm font-medium text-navy underline underline-offset-2">
+            Source on GitHub
+          </a>
         </div>
       </aside>
     </div>

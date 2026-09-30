@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { InfoPage } from "./MenuPanel";
+import { REPO_URL } from "@/lib/site";
 
 const FAQ = [
   ["Is this a real government website?", "No. Deutschland.gov is satire. A real German government website would have asked you to download a PDF by now."],
@@ -12,6 +13,7 @@ const FAQ = [
   ["Why do I have to accept cookies again?", "Your consent expires every 90 seconds, in accordance with a strict interpretation of a law nobody has read."],
   ["Who is Frau Schulze?", "Please ask the Beamten-KI. Or look out of your window. She is already looking at you."],
   ["Can I speak to a human?", "All humans are currently on Mittagspause, Kur, Elternzeit, Fortbildung or Brückentag."],
+  ["Is the source code available?", "Yes. It is open source on GitHub (github.com/Melvin2306/germany-gov-ai), making it the most digitalised part of the German state. New answers can be submitted as a pull request, in triplicate."],
 ];
 
 export function InfoPageContent({ page, onAsk }: { page: InfoPage; onAsk: (q: string) => void }) {
@@ -81,6 +83,13 @@ export function InfoPageContent({ page, onAsk }: { page: InfoPage; onAsk: (q: st
             The project was commissioned in 2011, tendered Europe-wide in 2014, awarded to the cheapest bidder in 2017, restarted in 2019, and delivered in 2026, 312% over budget. It is considered a great success.
           </p>
           <p>It has no connection to any government, ministry, authority or public body of Germany, the United States, or anywhere else.</p>
+          <p>
+            Built by Melvin Rinkleff. The source code is on{" "}
+            <a href={REPO_URL} target="_blank" rel="noopener noreferrer" className="font-medium text-navy underline underline-offset-2">
+              GitHub
+            </a>
+            . Contributions welcome — Bearbeitungszeit 6–8 Wochen.
+          </p>
           <div className="grid grid-cols-3 gap-3 pt-2 text-center">
             {[["4,7 Mio.", "Formulare"], ["0", "Termine frei"], ["3%", "digitalisiert"]].map(([n, l]) => (
               <div key={l} className="rounded-2xl bg-[#f3f2f1] p-4">
@@ -159,7 +168,13 @@ export function InfoPageContent({ page, onAsk }: { page: InfoPage; onAsk: (q: st
         </div>
       ) : (
         <>
-          <p className="mt-3 text-[15px] text-neutral-600">We value your feedback and will read it at the next quarterly feedback-reading meeting, if quorate.</p>
+          <p className="mt-3 text-[15px] text-neutral-600">
+            We value your feedback and will read it at the next quarterly feedback-reading meeting, if quorate. For actual bugs, the digital Eingangskorb is{" "}
+            <a href={`${REPO_URL}/issues`} target="_blank" rel="noopener noreferrer" className="font-medium text-navy underline underline-offset-2">
+              GitHub Issues
+            </a>
+            .
+          </p>
           <textarea
             value={feedback}
             onChange={(e) => setFeedback(e.target.value)}
