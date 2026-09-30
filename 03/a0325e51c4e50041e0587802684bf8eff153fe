@@ -1,0 +1,30 @@
+src/components/InfoPages.tsx
+  s_022abf0bc7355c::t_00fe0a3791dd24 5,16,86-92,171-177
+src/app/layout.tsx
+  s_022abf0bc7355c::t_00fe0a3791dd24 4
+  s_022abf0bc7355c::t_a38b788ae2c3ce 17-26,31,39-40,49,57-58
+README.md
+  s_022abf0bc7355c::t_00fe0a3791dd24 5-6,27-31
+src/components/MenuPanel.tsx
+  s_022abf0bc7355c::t_00fe0a3791dd24 5,87-89
+src/components/Home.tsx
+  s_022abf0bc7355c::t_00fe0a3791dd24 14,69-76,563-565,571-577,622-625
+src/lib/site.ts
+  s_022abf0bc7355c::t_00fe0a3791dd24 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "03a0325e51c4e50041e0587802684bf8eff153fe",
+  "prompts": {},
+  "sessions": {
+    "s_022abf0bc7355c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28502770-5aa9-498b-bca4-17bec7bea05b",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Melvin Rinkleff <melvin.rinkleff@gmx.de>"
+    }
+  }
+}
